@@ -1,0 +1,36 @@
+.container__big-card{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.big-card__title > h1{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.big-card__title > h1 > a:hover{
+    color: red;
+}
+
+.big-card__description > p > a{
+    color: gray;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.big-card__description > p > a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.big-card__photo > img{
+    width: 100%;
+
+}
